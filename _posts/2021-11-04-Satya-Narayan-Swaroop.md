@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## सत्यनारायण पुजेचे स्वरूप
 
