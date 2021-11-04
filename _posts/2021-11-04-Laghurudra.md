@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## लघुरुद्र अभिषेक व माहिती  
 
