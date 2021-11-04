@@ -2,14 +2,16 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+### समुहातील सदस्यांचे संपर्क ( दुरध्वनी)
 
-### Contact me
+१) अभिजित बडवे		९८५००१०७७४
+२) रोहन भुसारे		  ९६०४८८१५१८
+३) सोमनाथ कुलकर्णी	  ७०२८५७११००
+४) प्रशांत जोशी		   ९९२१००९४९०
+५) राहुल कुलकर्णी	   ८४०७९२५१८४
 
-[email@domain.com](mailto:email@domain.com)
