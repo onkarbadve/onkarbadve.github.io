@@ -15,7 +15,7 @@ description: याज्ञीक विधी समूह
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: onkarbadve@gmail.com
   facebook:
   flickr:
   github: 
@@ -25,7 +25,7 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: channel/UCoJLwGbuGC_SVAlWKRRIkVg # channel/<your_long_string> or user/<user-name>
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
