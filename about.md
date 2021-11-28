@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: संपर्क
 permalink: /about/
 published: true
 ---
