@@ -1,12 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onkar Badve | AVP & Full Stack Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Smooth scrolling for the whole page */
+        html { scroll-behavior: smooth; }
+    </style>
 </head>
-<body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph.</p>
-    <p><strong>This is bold text.</strong></p>
-    <p>This is another paragraph.</p>
+<body class="bg-slate-900 text-slate-100 font-sans leading-relaxed selection:bg-blue-500 selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tighter text-blue-400 hover:text-white transition">OB.</a>
+            
+            <div class="flex items-center space-x-4 text-sm font-medium mt-2 md:mt-0">
+                <a href="#experience" class="hidden md:block hover:text-blue-400 transition">Experience</a>
+                <a href="#projects" class="hidden md:block hover:text-blue-400 transition">Work</a>
+                <a href="https://github.com/onkarbadve" target="_blank" class="hover:text-blue-400 transition"><i class="fab fa-github text-lg"></i></a>
+                <a href="https://www.linkedin.com/in/onkar-badve" target="_blank" class="hover:text-blue-400 transition"><i class="fab fa-linkedin text-lg"></i></a>
+                <a href="mailto:onkarbadve@gmail.com" class="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-500 transition text-white">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-20 px-6">
+        <div class="max-w-4xl mx-auto">
+            <p class="text-blue-400 font-mono mb-4">Hi, my name is</p>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Onkar Badve.</h1>
+            <h2 class="text-3xl md:text-5xl font-bold text-slate-400 mb-8">Building scalable financial systems.</h2>
+            <p class="text-lg text-slate-400 max-w-2xl mb-10">
+                I am an <strong class="text-blue-300">Assistant Vice President at Citi</strong> with <strong class="text-blue-300">11+ years of experience</strong> in the Banking Compliance domain. Currently, I lead a team of 5 engineers focusing on <strong class="text-blue-300">Microservices migration</strong> and modernizing UI/UX with <strong class="text-blue-300">Angular</strong>.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="#projects" class="px-6 py-3 border border-blue-400 text-blue-400 rounded hover:bg-blue-400/10 transition font-mono">Check out my work</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="experience" class="py-20 bg-slate-800/50">
+        <div class="max-w-4xl mx-auto px-6">
+            <h3 class="text-2xl md:text-3xl font-bold mb-12 flex items-center text-white">
+                <span class="text-blue-400 font-mono mr-4 text-xl">01.</span> Experience
+            </h3>
+
+            <div class="relative border-l-2 border-slate-700 ml-3 md:ml-6 space-y-12">
+                
+                <div class="pl-8 relative">
+                    <span class="absolute w-4 h-4 bg-blue-500 rounded-full -left-[9px] top-1 border-4 border-slate-900"></span>
+                    <h4 class="text-xl font-bold text-white">Assistant Vice President @ Citi India</h4>
+                    <p class="text-sm font-mono text-blue-400 mb-4">July 2023 — Present</p>
+                    <ul class="space-y-3 text-slate-400 list-disc list-outside ml-4">
+                        <li>Leading a team of 5 developers in an Agile environment to deliver compliance-critical modules.</li>
+                        <li>Spearheading the UI/UX transformation of the Members module using <strong>Angular</strong>.</li>
+                        <li>Collaborating with stakeholders to translate global banking regulations into scalable technical roadmaps.</li>
+                    </ul>
+                </div>
+
+                <div class="pl-8 relative">
+                    <span class="absolute w-4 h-4 bg-slate-600 rounded-full -left-[9px] top-1 border-4 border-slate-900"></span>
+                    <h4 class="text-xl font-bold text-white">Programmer Analyst @ Citi India</h4>
+                    <p class="text-sm font-mono text-slate-400 mb-4">August 2021 — July 2023</p>
+                    <ul class="space-y-3 text-slate-400 list-disc list-outside ml-4">
+                        <li>Successfully migrated the core "Members" module from a Monolith to a <strong>Microservices architecture</strong>.</li>
+                        <li>Developed high-performance backends using Java, Spring Boot, and Hibernate.</li>
+                    </ul>
+                </div>
+
+                <div class="pl-8 relative">
+                    <span class="absolute w-4 h-4 bg-slate-600 rounded-full -left-[9px] top-1 border-4 border-slate-900"></span>
+                    <h4 class="text-xl font-bold text-white">Senior Software Engineer @ L&T Infotech</h4>
+                    <p class="text-sm font-mono text-slate-400 mb-4">Dec 2013 — Aug 2021</p>
+                    <ul class="space-y-3 text-slate-400 list-disc list-outside ml-4">
+                        <li>Full-stack developer for a global KYC project serving Citibank NA.</li>
+                        <li>Utilized Spring MVC and SQL to manage complex regulatory data sets.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <h3 class="text-2xl md:text-3xl font-bold mb-12 flex items-center text-white">
+                <span class="text-blue-400 font-mono mr-4 text-xl">02.</span> Featured Projects
+            </h3>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="p-8 bg-slate-800 rounded-xl border border-slate-700 hover:border-blue-500 transition-all group shadow-lg">
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fas fa-server text-blue-400 text-3xl"></i>
+                        <a href="https://github.com/onkarbadve" class="text-slate-400 group-hover:text-white"><i class="fab fa-github text-xl"></i></a>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-white group-hover:text-blue-400 transition">Microservices Migration</h4>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Architectural transformation of legacy monolithic systems into scalable microservices.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs font-mono text-blue-300 mt-auto">
+                        <span class="bg-slate-900/50 px-2 py-1 rounded">Spring Boot</span>
+                        <span class="bg-slate-900/50 px-2 py-1 rounded">Microservices</span>
+                    </div>
+                </div>
+
+                <div class="p-8 bg-slate-800 rounded-xl border border-slate-700 hover:border-blue-500 transition-all group shadow-lg">
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fas fa-shield-alt text-blue-400 text-3xl"></i>
+                        <a href="https://github.com/onkarbadve" class="text-slate-400 group-hover:text-white"><i class="fab fa-github text-xl"></i></a>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-white group-hover:text-blue-400 transition">Security & DevOps Lab</h4>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Repository showcasing secure OAuth2/JWT implementations and containerized deployments.
+                    </p>
+                    <div class="flex flex-wrap gap-2 text-xs font-mono text-blue-300 mt-auto">
+                        <span class="bg-slate-900/50 px-2 py-1 rounded">Spring Security</span>
+                        <span class="bg-slate-900/50 px-2 py-1 rounded">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-500 text-sm border-t border-slate-800 bg-slate-900">
+        <p class="mb-2">Built by Onkar Badve</p>
+        <div class="flex justify-center space-x-4 mb-4">
+            <span class="text-xs border border-slate-700 px-2 py-1 rounded">B.E. Comp Eng</span>
+            <span class="text-xs border border-slate-700 px-2 py-1 rounded">RHCE Certified</span>
+        </div>
+        <p class="text-xs">Pune, Maharashtra, India</p>
+    </footer>
+
 </body>
 </html>
